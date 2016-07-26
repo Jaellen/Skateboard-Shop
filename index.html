@@ -15,7 +15,7 @@
   <body>
 
 <!-- Section 1: Jumbotron -->
-    <div class="jumbotron">
+    <div class="jumbotron parallax-window" data-parallax="scroll" data-image-src="https://i.imgsafe.org/66b48d8f8a.jpeg" data-speed="0.7">
       <div class="container">
         <div class="row">
           <div class="col-md-1">
@@ -27,7 +27,9 @@
           </div>
         </div>
 
-        <img class="arrow" src="https://i.imgsafe.org/78ae15a681.png" height="40" width="70">
+        <div class="arrow">
+          <a href="#"><img src="https://i.imgsafe.org/78ae15a681.png" height="40" width="70"></a>
+        </div>
 
       </div>
     </div>
@@ -128,6 +130,9 @@
     </div>
 
     <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/parallax.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
