@@ -1,0 +1,86 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, a {
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14.4px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1.6px;
+  line-height: 21.6px;
+  text-transform: uppercase;
+}
+
+/* Jumbotron */
+.jumbotron {
+  margin-bottom: 0;
+  height: 668px;
+  background: url("https://i.imgsafe.org/66b48d8f8a.jpeg") no-repeat center center;
+  background-size: cover;
+}
+
+.jumbotron .youtube {
+  margin-left: 3px;
+}
+
+.jumbotron .arrow {
+  display: inline-block;
+  position: relative;
+  left: 46%;
+  margin-top: 38px;
+}
+
+/* Supporting */
+.supporting {
+  background-color: #f24822;
+  color: #fff;
+}
+
+.supporting .col-md-4{
+  margin: 50px 0 50px 0;
+  text-align: center;
+}
+
+/* Featuring */
+.featuring {
+  background-color: #f24822;
+}
+
+.featuring .container {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  width: 1263px;
+  background-color: #f24822;
+}
+
+h1 {
+  font-family: "Arial", sans-serif;
+  color: #fff;
+  font-size: 200px;
+  font-weight: 600;
+  float: none;
+  position: absolute;
+  left: 350px;
+  top: 1025px;
+}
+
+/* Table */
+
+.table {
+  border: 1px solid black;
+}
+
+/* Footer */
