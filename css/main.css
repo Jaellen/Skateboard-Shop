@@ -3,6 +3,10 @@ html, body {
   padding: 0;
 }
 
+body {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Solid_white.svg/1000px-Solid_white.svg.png");
+}
+
 h1, h2, a {
   font-family: "Lato", sans-serif;
   font-size: 40px;
@@ -13,7 +17,7 @@ h1, h2, a {
   text-transform: uppercase;
 }
 
-p, h4, table, tr, td {
+p, h4 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 14.4px;
   font-style: normal;
@@ -42,8 +46,8 @@ p, h4, table, tr, td {
 .jumbotron .arrow {
   display: inline-block;
   position: relative;
-  left: 47%;
-  margin-top: 75px;
+  left: 47.5%;
+  margin-top: 45px;
 }
 
 /* Supporting */
@@ -86,7 +90,6 @@ p, h4, table, tr, td {
 }
 
 /* Table */
-
 .container table, .container tr, .container td {
   border: 0px;
   border-collapse: collapse;
@@ -103,9 +106,27 @@ p, h4, table, tr, td {
 }
 
 /* Footer */
-
 .footer h4 {
   margin: 20px 40px 40px 40px;
   color: #f24822;
   font-size: 16px;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  h1 {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .featuring {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .jumbotron .arrow {
+    display: none;
+  }
 }
