@@ -1,5 +1,5 @@
 
- html, body {
+html, body {
  margin: 0;
  padding: 0;
 }
@@ -71,12 +71,21 @@ p, h4 {
  background-color: #f24822;
 }
 
-.featuring .container {
- display: inline-flex;
- margin: 0;
- padding: 0;
- width: 1263px;
- background-color: #f24822;
+.featuring .container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+#img1, #img2 {
+  margin-left: 2px;
+}
+
+.featuring #img3 {
+  margin-left: 1px;
+}
+
+.featuring img {
+  outline: 3px solid black;
 }
 
 .featuring h1 {
@@ -91,7 +100,6 @@ p, h4 {
 }
 
 /* Table */
-
 body tbody:first-of-type tr:first-of-type {
  background-color: #000;
 }
@@ -169,20 +177,20 @@ td .bottomSides {
 }
 
 /* Footer */
-
 .footer h4 {
  margin: 20px 40px 40px 40px;
  color: #f24822;
  font-size: 16px;
 }
 
+/* Media Queries */
 @media (max-width: 1200px) {
     h1 {
       display: none;
     }
   }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1200px) {
     .featuring {
       display: none;
     }
